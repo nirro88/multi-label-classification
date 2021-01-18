@@ -25,7 +25,7 @@ from sklearn.model_selection import StratifiedShuffleSplit
 
 from sklearn.model_selection import cross_val_score, cross_val_predict
 
-train_path = r'C:\Users\nirro\Desktop\machine learning\Earnix\train file exercise.csv'
+train_path = r'C:\Users\nirro\Desktop\machine learning\train file exercise.csv'
 df = pd.read_csv(train_path, dtype={"date_time": "string"})
 
 # ----------------- get first information on data-set -----------------------------------
